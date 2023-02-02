@@ -122,6 +122,9 @@ async function updateUser(event) {
         // To do: call scrollToTop to scroll when created
         updateUsersGrid();
         scrollToTop();
+        const dialog = document.querySelector("#dialog-update");
+        dialog.close();
+        
     }
 }
 
