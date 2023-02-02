@@ -28,7 +28,7 @@ function displayUsers(list) {
                 <p>${user.hold}</p>
                 <p>+45 ${user.tlf}</p>
                 <a href="mailto:${user.mail}">${user.mail}</a>
-                <div>
+                <div class="btns">
                     <button class="btn-update-user">Update</button>
                     <button class="btn-delete-user">Delete</button>
                 </div>
@@ -79,6 +79,10 @@ function selectUser(user) {
     selectedUser = user;
     // reference to update form
     const form = document.querySelector("#form-update");
+
+    //Dialog update
+    const dialog = document.querySelector("#dialog-update");
+    dialog.showModal();
 
     // To do: set form input values with user.xxxx
     console.log(user);

@@ -14,7 +14,9 @@
         <h1>CRUD App</h1>
     </header>
     <main>
+        
         <section id="users-grid" class="grid-container"></section>
+        
         <form id="form-create">
             <h2>Create a new User</h2>
             <input type="text" name="name" placeholder="Type your name" required>
@@ -26,6 +28,7 @@
             <button>Create User</button>
         </form>
 
+        <dialog id="dialog-update">
         <form id="form-update">
             <h2>Update User</h2>
             <input type="text" name="name" placeholder="Type your name" required>
@@ -36,6 +39,7 @@
             <input type="url" name="image" placeholder="Paste image url" required>
             <button>Update User</button>
         </form>
+        </dialog>
     </main>
     <script src="app.js"></script>
 </body>
