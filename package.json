@@ -1,0 +1,17 @@
+{
+  "name": "dat-js-crud-intro",
+  "version": "1.0.0",
+  "description": "Starter Template for Intro to Programming, CRUD, dat.js",
+  "main": "backend.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch backend.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
